@@ -70,4 +70,4 @@ CircleCI is used for running the pipeline respective scripts can be found on .ci
 
 Also last executed results can be found in this [link(click here for last executed test results)](https://circleci.com/api/v1.1/project/github/sripriyavasan/api-automation-json-bin/latest/artifacts/0/target/site/serenity/index.html)
 
-####Note: To view the last executed test results, user needs to login into circleCI
+**_Note_**: **To view the last executed test results, user needs to login into circleCI**
