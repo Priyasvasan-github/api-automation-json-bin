@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "required": [
+    "record",
+    "metadata"
+  ],
+  "properties": {
+    "record": {
+      "$id": "#/properties/record",
+      "type": "object",
+      "title": "The record schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "users": ""
+        }
+      ],
+      "properties": {
+        "users": {
+          "$id": "#/properties/record/properties/users",
+          "type": "string",
+          "title": "The users schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            ""
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "metadata": {
+      "$id": "#/properties/metadata",
+      "type": "object",
+      "title": "The metadata schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "id": "6047eee7683e7e079c4a5b1c",
+          "private": true
+        }
+      ],
+      "required": [
+        "id",
+        "private"
+      ],
+      "properties": {
+        "id": {
+          "$id": "#/properties/metadata/properties/id",
+          "type": "string",
+          "title": "The id schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "6047eee7683e7e079c4a5b1c"
+          ]
+        },
+        "private": {
+          "$id": "#/properties/metadata/properties/private",
+          "type": "boolean",
+          "title": "The private schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": false,
+          "examples": [
+            true
+          ]
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}
