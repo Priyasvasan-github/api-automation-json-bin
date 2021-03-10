@@ -65,3 +65,9 @@ Serenity BDD has one of the best reporting and the test reports are generated ev
 When the project is cloned into Local, test results reporting, along with screenshots, can be seen if we open **_`index.html`_** from `(target\site\serenity\index.html)`.
 
 ## 4) CI/CD Integration
+
+CircleCI is used for running the pipeline respective scripts can be found on .circleci folder and the tests are run automatically upon every commit and pull request.
+
+Also last executed results can be found in this [link(click here for last executed test results)](https://circleci.com/api/v1.1/project/github/sripriyavasan/api-automation-json-bin/latest/artifacts/0/target/site/serenity/index.html)
+
+####Note: To view the last executed test results, user needs to login into circleCI
