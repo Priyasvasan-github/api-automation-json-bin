@@ -1,4 +1,4 @@
-package com.backbase.apis;
+package com.jsonBin.apis;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;

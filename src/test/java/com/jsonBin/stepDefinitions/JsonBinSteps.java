@@ -1,7 +1,7 @@
-package com.backbase.stepDefinitions;
+package com.jsonBin.stepDefinitions;
 
-import com.backbase.apis.BasePage;
-import com.backbase.apis.JsonBinAPI;
+import com.jsonBin.apis.BasePage;
+import com.jsonBin.apis.JsonBinAPI;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -11,7 +11,7 @@ import net.thucydides.core.annotations.Steps;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class JsonBSteps {
+public class JsonBinSteps {
 
     @Steps
     JsonBinAPI jsonBinAPI;

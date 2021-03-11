@@ -1,4 +1,4 @@
-package com.backbase.apis;
+package com.jsonBin.apis;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.json.model.bin.Bin;
